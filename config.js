@@ -7,7 +7,7 @@ module.exports = {
 	// The bot's command prefix. The bot will recognize as command any message that begins with it.
 	// i.e: "-schedulebot foo" will trigger the command "foo",
 	//      whereas "ScheduleBot foo" will do nothing at all.
-	prefix:  "<@349117965460963328>", // Tip: If you use "<@YOUR_BOT_USER_ID>", you can have the prefix
+	prefix:  "<@350386946721316865>", // Tip: If you use "<@YOUR_BOT_USER_ID>", you can have the prefix
 	                         // be a mention to your bot.
 
 	// Admin app settings
@@ -18,19 +18,19 @@ module.exports = {
 
 	// The master channel
 	// The bot will announce the events to this channel. It won't listen to other channels.
-	master_channel: "349115218305089547",
+	master_channel: "312516524898516993",
 
 	// Events are considered "happening" for a margin of time, where users can see that the event
 	// is happening right now. During that time, the event is not considered expired yet.+
 	// This config determines for how long.
-	happening_margin: 60000 * 5, // In milliseconds
+	happening_margin: 6000 * 5, // In milliseconds
 
 	// Update interval
 	// Every X milliseconds, ScheduleBot will update all active summaries.
-	update_interval: 60000, // In milliseconds
+	update_interval: 6000, // In milliseconds
 
 	// List of accepted timezones: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-	default_timezone: "Europe/Madrid",
+	default_timezone: "Europe/Oslo",
 
 	// If this option is enabled, the bot will delete the message that triggered it, and its own
 	// response, after the specified amount of time has passed.
@@ -40,7 +40,7 @@ module.exports = {
 	// More info: https://discordapp.com/developers/docs/topics/permissions
 	delete_after_reply: {
 		enabled: true,
-		time: 60000, // In milliseconds
+		time: 6000, // In milliseconds
 	},
 
 	// If true, it will delete any message that is not a command from the master channel.
